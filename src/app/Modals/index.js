@@ -38,6 +38,7 @@ export default function Example(props) {
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
                       {props.info}
+                      {props.src===undefined ? (<></>):(<iframe width="300" height="500" src={props.src} title="Key lock" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>)} 
                     </p>
                     <p className="text-sm text-gray-500">
                         {props.secondaryInfo}

@@ -42,7 +42,7 @@ const Banner =()=> {
                 <div className="flex items-center gap-x-6">
                   <img alt="" src={item.imageUrl} className="h-16 w-16 rounded-full" />
                   <div>
-                    <Modal label= {item.title} image ={item.imageUrl} info ={item.info} secondaryInfo ={item.secondaryInfo}/>
+                    <Modal label= {item.title} image ={item.imageUrl} src ={item.src} info ={item.info} secondaryInfo ={item.secondaryInfo}/>
                   </div>
                 </div>
               </li>
