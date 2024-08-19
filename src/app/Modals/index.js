@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 
 export default function Example(props) {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   return (
     <>
