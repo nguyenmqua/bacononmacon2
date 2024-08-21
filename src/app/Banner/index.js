@@ -24,6 +24,18 @@ const Banner =()=> {
         <div className="mx-auto grid gap-x-20 gap-y-10 px-6 lg:px-8 xl:grid-cols-3">
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           <li>
+          <a href="https://turo.com/us/en/suv-rental/united-states/aurora-co/jeep/patriot/1747729?endDate=08%2F20%2F2024&endTime=10%3A00&startDate=08%2F17%2F2024&startTime=10%3A00">
+            <div className="flex items-center gap-x-6">
+                  <img alt="Airbnb" src="https://e7.pngegg.com/pngimages/703/597/png-clipart-logo-house-home-house-angle-building-thumbnail.png" className="h-16 w-16 rounded-full" />
+                  <button
+                type="button"
+               
+                className="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
+              >
+               Rebook
+              </button>
+                </div>
+            </a>
             <a href="https://turo.com/us/en/suv-rental/united-states/aurora-co/jeep/patriot/1747729?endDate=08%2F20%2F2024&endTime=10%3A00&startDate=08%2F17%2F2024&startTime=10%3A00">
             <div className="flex items-center gap-x-6">
                   <img alt="Airbnb" src="https://cdn-icons-png.flaticon.com/512/4965/4965302.png" className="h-16 w-16 rounded-full" />
