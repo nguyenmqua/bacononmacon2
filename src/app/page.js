@@ -15,11 +15,26 @@ export default function Home() {
           className="relative border-red-500 m-10 rounded-full ring-5 ring-white dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/house.jpg"
           alt="macon house"
-          width={250}
-          height={250}
+          width= {300}
+          height={300}
           priority
         />
       </div>
+      
+      <div className = "inline-flex p-5 mb-5 justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto">
+       <a href="https://www.airbnb.com/rooms/1226049165383433399?guests=1&adults=1&s=67&unique_share_id=f1150cc4-2e1c-4d48-8c5b-3080f603c3b4">
+            <div className="flex items-center gap-x-6">
+                  <img alt="Airbnb" src="https://e7.pngegg.com/pngimages/703/597/png-clipart-logo-house-home-house-angle-building-thumbnail.png" className="h-12 w-12 rounded-full" />
+              <button
+                type="button"
+                className="inline-flex  justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
+              >
+               Rebook
+              </button>
+            </div>
+      </a> 
+      </div>
+      
 
       <div className="mb-32 w-80 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
      
